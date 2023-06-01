@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after{
+    outline: none;
+    border: none;
+    transition: all .3s;
+    color: #09333d;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1b9a8d;
+}
+a:hover {
+    color: #09333d;
+}
+
+header {
+    height: 70px;
+    display: grid;
+    place-items: center;
+}
+.logo {
+    width: 10rem;
+}

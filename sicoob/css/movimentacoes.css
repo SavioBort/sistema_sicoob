@@ -1,0 +1,28 @@
+.saque{
+    background-color: #ffdddd;
+}
+
+.deposito{
+    background-color: #d0faca;
+}
+
+.mostrar-no-pdf {
+
+    display: none;
+
+}
+
+@media print {
+
+    .ocultar-no-pdf {
+
+        display: none;
+
+    }
+
+    .mostrar-no-pdf {
+
+        display: block;
+        
+    }
+}

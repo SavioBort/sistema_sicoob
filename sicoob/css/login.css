@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://www.sicoobengecred.coop.br/wp-content/uploads/2021/04/bg-sicoob2.svg");
+}
+
+.navbar {
+    background-color: #09333d;
+    padding: 0px;
+}
+
+.navbar-brand img {
+    width: 45%;
+    height: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+.login-card {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+    width: 400px;
+    background-color: white;
+}
+
+.form-floating {
+    margin-bottom: 15px;
+}
+
+.form-floating label {
+    margin-left: 10px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 5px;
+}
